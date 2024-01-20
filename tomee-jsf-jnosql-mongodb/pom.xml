@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.jnosql</groupId>
+		<artifactId>demo-ee</artifactId>
+		<version>1.0.1</version>
+	</parent>
+
+	<groupId>org.eclipse.jnosql.demoee</groupId>
+	<artifactId>tomee-jsf-jnosql-mongodb</artifactId>
+	<packaging>war</packaging>
+	<name>tomee-jsk-jnosql-mongodb</name>
+	<description>Demo project using JNoSQL with JSF and TomEE.</description>
+
+	<properties>
+		<maven.compiler.release>17</maven.compiler.release>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+</project>

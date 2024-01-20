@@ -85,4 +85,8 @@ Apache TomEE is a lightweight, open-source Jakarta EE application server that is
 | Simple CRUD REST application
 | MongoDB
 
+| link:tomee-jsf-jnosql-mongodb/[]
+| Simple CRUD JSF application
+| MongoDB
+
 |===
